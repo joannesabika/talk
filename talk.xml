@@ -13,14 +13,23 @@
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="80">
-            <field name="TEXT">awesome</field>
+          <block type="oled_drawtext" id="114">
+            <field name="TEXT">cool ok</field>
             <next>
-              <block type="oled_drawtext" id="97">
-                <field name="TEXT"> whats up</field>
+              <block type="oled_setcursor" id="132" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="139">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="146">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
                 <next>
-                  <block type="oled_drawtext" id="114">
-                    <field name="TEXT">cool ok</field>
+                  <block type="oled_drawtext" id="123">
+                    <field name="TEXT">this is awesome</field>
                   </block>
                 </next>
               </block>
