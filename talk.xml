@@ -18,6 +18,11 @@
             <next>
               <block type="oled_drawtext" id="97">
                 <field name="TEXT"> whats up</field>
+                <next>
+                  <block type="oled_drawtext" id="114">
+                    <field name="TEXT">cool</field>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
