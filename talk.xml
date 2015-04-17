@@ -44,7 +44,26 @@
                         </value>
                         <next>
                           <block type="oled_drawtext" id="192">
-                            <field name="TEXT">this is the most fun I had since kindergarden</field>
+                            <field name="TEXT">this is the most fun </field>
+                            <next>
+                              <block type="oled_setcursor" id="201" inline="true">
+                                <value name="STARTX">
+                                  <block type="math_number" id="208">
+                                    <field name="NUM">10</field>
+                                  </block>
+                                </value>
+                                <value name="STARTY">
+                                  <block type="math_number" id="215">
+                                    <field name="NUM">40</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="oled_drawtext" id="224">
+                                    <field name="TEXT">I had since kindergarden</field>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
                           </block>
                         </next>
                       </block>
