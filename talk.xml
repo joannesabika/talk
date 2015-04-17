@@ -31,35 +31,44 @@
                   <block type="oled_drawtext" id="123">
                     <field name="TEXT">this is awesome</field>
                     <next>
-                      <block type="oled_setcursor" id="155" inline="true">
-                        <value name="STARTX">
-                          <block type="math_number" id="162">
-                            <field name="NUM">10</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="math_number" id="183">
-                            <field name="NUM">30</field>
+                      <block type="robot_delay" id="235" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="242">
+                            <field name="NUM">2000</field>
                           </block>
                         </value>
                         <next>
-                          <block type="oled_drawtext" id="192">
-                            <field name="TEXT">this is the most fun </field>
+                          <block type="oled_setcursor" id="155" inline="true">
+                            <value name="STARTX">
+                              <block type="math_number" id="162">
+                                <field name="NUM">10</field>
+                              </block>
+                            </value>
+                            <value name="STARTY">
+                              <block type="math_number" id="183">
+                                <field name="NUM">30</field>
+                              </block>
+                            </value>
                             <next>
-                              <block type="oled_setcursor" id="201" inline="true">
-                                <value name="STARTX">
-                                  <block type="math_number" id="208">
-                                    <field name="NUM">10</field>
-                                  </block>
-                                </value>
-                                <value name="STARTY">
-                                  <block type="math_number" id="215">
-                                    <field name="NUM">40</field>
-                                  </block>
-                                </value>
+                              <block type="oled_drawtext" id="192">
+                                <field name="TEXT">this is the most fun </field>
                                 <next>
-                                  <block type="oled_drawtext" id="224">
-                                    <field name="TEXT">I had since kindergarden</field>
+                                  <block type="oled_setcursor" id="201" inline="true">
+                                    <value name="STARTX">
+                                      <block type="math_number" id="208">
+                                        <field name="NUM">10</field>
+                                      </block>
+                                    </value>
+                                    <value name="STARTY">
+                                      <block type="math_number" id="215">
+                                        <field name="NUM">40</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="oled_drawtext" id="224">
+                                        <field name="TEXT">I had since kindergarden</field>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
