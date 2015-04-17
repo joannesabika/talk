@@ -20,7 +20,7 @@
                 <field name="TEXT"> whats up</field>
                 <next>
                   <block type="oled_drawtext" id="114">
-                    <field name="TEXT">cool</field>
+                    <field name="TEXT">cool ok</field>
                   </block>
                 </next>
               </block>
